@@ -1,0 +1,6 @@
+applicationType: cli
+defaultPackage: com.github.wololock
+testFramework: spock
+sourceLanguage: java
+buildTool: gradle
+features: [annotation-api, app-name, docker, file-watch, graalvm, gradle, http-client, java, logback, picocli, picocli-java-application, picocli-spock, readme, shade, spock, yaml]

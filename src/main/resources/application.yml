@@ -1,0 +1,7 @@
+micronaut:
+  application:
+    name: stackoverflowCli
+
+stackoverflow:
+  api:
+    url: https://api.stackexchange.com/2.2
