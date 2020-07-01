@@ -7,6 +7,7 @@ A simple and unofficial Stack Overflow CLI tool build with Java 11, Micronaut Fr
 
 * My YouTube video https://www.youtube.com/watch?v=Xdcg4Drg1hc
 * SDKMAN! https://sdkman.io/
+* Micronaut Launch https://micronaut.io/launch/
 * Micronaut Picocli Integration Guide https://micronaut-projects.github.io/micronaut-picocli/latest/guide/
 * Micronaut 2.0.0 Documentation https://docs.micronaut.io/latest/guide/index.html
 * Picocli Quick Guide https://picocli.info/quick-guide.html
