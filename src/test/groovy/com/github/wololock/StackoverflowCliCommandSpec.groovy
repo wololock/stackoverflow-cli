@@ -3,13 +3,9 @@ package com.github.wololock
 import io.micronaut.configuration.picocli.PicocliRunner
 import io.micronaut.context.ApplicationContext
 import io.micronaut.context.env.Environment
-
 import spock.lang.AutoCleanup
 import spock.lang.Shared
 import spock.lang.Specification
-
-import java.io.ByteArrayOutputStream
-import java.io.PrintStream
 
 class StackoverflowCliCommandSpec extends Specification {
 

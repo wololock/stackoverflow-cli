@@ -9,7 +9,7 @@ import java.util.List;
 @Introspected
 final public class ApiResponse<T> {
 
-    public List<Question> items = Collections.emptyList();
+    public List<T> items = Collections.emptyList();
 
     @JsonProperty("has_more")
     public boolean hasMore;
