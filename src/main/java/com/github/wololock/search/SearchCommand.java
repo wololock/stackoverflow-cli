@@ -54,8 +54,6 @@ final public class SearchCommand implements Runnable {
                     response.hasMore
             );
         }
-
-        System.exit(0);
     }
 
     static private String formatQuestion(final Question question) {

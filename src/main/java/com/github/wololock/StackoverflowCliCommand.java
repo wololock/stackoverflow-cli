@@ -23,6 +23,8 @@ public class StackoverflowCliCommand implements Runnable {
         Credentials.init();
 
         PicocliRunner.run(StackoverflowCliCommand.class, args);
+
+        System.exit(0);
     }
 
     public void run() {

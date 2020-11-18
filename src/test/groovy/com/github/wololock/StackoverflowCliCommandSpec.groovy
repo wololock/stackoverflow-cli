@@ -11,10 +11,15 @@ class StackoverflowCliCommandSpec extends Specification {
 
     @Shared @AutoCleanup ApplicationContext ctx = ApplicationContext.run(Environment.CLI, Environment.TEST)
 
+    @Shared PrintStream out
+
+    void setupSpec() {
+        out = System.out
+    }
+
     void "test stackoverflow-cli search command"() {
         given:
         ByteArrayOutputStream baos = new ByteArrayOutputStream()
-        PrintStream out = System.out
         System.setOut(new PrintStream(baos))
 
         String[] args = ["search", "-q", "merge maps", "-t", "java", "--verbose"] as String[]

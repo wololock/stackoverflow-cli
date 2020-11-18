@@ -18,6 +18,5 @@ final public class MeCommand implements Runnable {
     @Override
     public void run() {
         System.out.println(client.me());
-        System.exit(0);
     }
 }
